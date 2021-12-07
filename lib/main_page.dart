@@ -1,5 +1,5 @@
 import 'package:bombscrypto_simulator/roi/ui/roi_page.dart';
-import 'package:bombscrypto_simulator/team/ui/team_page.dart';
+import 'package:bombscrypto_simulator/team/list/ui/team_page.dart';
 import 'package:bombscrypto_simulator/util/image/images.dart';
 import 'package:flutter/material.dart';
 
@@ -22,9 +22,9 @@ class MainPageState extends State<MainPage> {
     return Scaffold(
       body: pages[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
-        unselectedItemColor: ProjectColors.textLightColor,
+        unselectedItemColor: ProjectColors.backgroundLightColor,
         selectedItemColor: ProjectColors.textDarkColor,
-        backgroundColor: ProjectColors.backgroundColor,
+        backgroundColor: ProjectColors.backgroundDarkColor,
         currentIndex: _selectedIndex,
         onTap: (index) {
           setState(() {
