@@ -1,6 +1,6 @@
+import 'package:bombscrypto_simulator/roi/business/roi_presenter.dart';
 import 'package:bombscrypto_simulator/roi/model/roi_model.dart';
 import 'package:bombscrypto_simulator/roi/roi_contract.dart';
-import 'package:bombscrypto_simulator/roi/business/roi_presenter.dart';
 import 'package:bombscrypto_simulator/util/image/images.dart';
 import 'package:currency_text_input_formatter/currency_text_input_formatter.dart';
 import 'package:flutter/material.dart';
