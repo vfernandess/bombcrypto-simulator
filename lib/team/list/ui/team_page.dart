@@ -1,3 +1,4 @@
+import 'package:bombscrypto_simulator/hero/hero_page.dart';
 import 'package:bombscrypto_simulator/util/image/images.dart';
 import 'package:flutter/material.dart';
 
@@ -22,7 +23,9 @@ class TeamsStatePage extends State<TeamsPage> {
       floatingActionButton: FloatingActionButton(
         child: const Icon(Icons.add),
         backgroundColor: ProjectColors.textLightColor,
-        onPressed: () {  },
+        onPressed: () {
+          HeroPage.show(context);
+        },
       ),
     );
   }
